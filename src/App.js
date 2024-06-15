@@ -10,7 +10,7 @@ function App() {
   const [newName, setNewName] = useState("");
   const [newEmail, setNewEmail] = useState("");
   const [newWebsite, setNewWebsite] = useState("");
-// this useEffect is useto connect the json data from the link 
+  // this useEffect is useto connect the json data from the link
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
@@ -20,7 +20,6 @@ function App() {
   }, []);
 
   let rowspanNUM = 2;
-
 
   // this one is use to add new user data to frontend
   function adduser() {
@@ -49,18 +48,16 @@ function App() {
     }
   }
 
-
   // this one is use to take the selected data from the json data ******
-  function onchageHandler(id,key,value){
+  function onchageHandler(id, key, value) {
     setUser((users) => {
       return users.map((user) => {
-        return user.id === id?{...user,[key]:value}:user;
+        return user.id === id ? { ...user, [key]: value } : user;
       });
     });
   }
 
-
-  // this one is use to  edit the previous data in the json 
+  // this one is use to  edit the previous data in the json
   function updateuser(id) {
     const user = users.find((user) => user.id === id);
     fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
@@ -77,7 +74,7 @@ function App() {
         });
       });
   }
-  // this one is use to delete the data in json 
+  // this one is use to delete the data in json
   function deleteuser(id) {
     fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
       method: "DELETE",
@@ -115,9 +112,7 @@ function App() {
               <td> {user.name} </td>
               <td>
                 <EditableText
-                  onChange={(value) =>
-                    onchageHandler(user.id, "email", value)
-                  }
+                  onChange={(value) => onchageHandler(user.id, "email", value)}
                   value={user.email}
                 />
               </td>

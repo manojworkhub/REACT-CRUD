@@ -5,8 +5,8 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(208, 208, 208);
+    color: rgb(0, 0, 0);
     align-items: center;
     height: 600px;
 }
