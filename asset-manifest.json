@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/REACT-CRUD/static/css/main.4825356d.css",
+    "main.css": "/REACT-CRUD/static/css/main.61ade510.css",
     "main.js": "/REACT-CRUD/static/js/main.76838d60.js",
     "blueprint-icons-all-paths-loader.js": "/REACT-CRUD/static/js/blueprint-icons-all-paths-loader.ca4c84f1.chunk.js",
     "blueprint-icons-split-paths-by-size-loader.js": "/REACT-CRUD/static/js/blueprint-icons-split-paths-by-size-loader.5d3afb9e.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/blueprint-icons-20.woff2?": "/REACT-CRUD/static/media/blueprint-icons-20.85fabb9cc020825206e2.woff2",
     "static/media/blueprint-icons-16.woff2?": "/REACT-CRUD/static/media/blueprint-icons-16.1d6152e098d0086af54a.woff2",
     "index.html": "/REACT-CRUD/index.html",
-    "main.4825356d.css.map": "/REACT-CRUD/static/css/main.4825356d.css.map",
+    "main.61ade510.css.map": "/REACT-CRUD/static/css/main.61ade510.css.map",
     "main.76838d60.js.map": "/REACT-CRUD/static/js/main.76838d60.js.map",
     "blueprint-icons-all-paths-loader.ca4c84f1.chunk.js.map": "/REACT-CRUD/static/js/blueprint-icons-all-paths-loader.ca4c84f1.chunk.js.map",
     "blueprint-icons-split-paths-by-size-loader.5d3afb9e.chunk.js.map": "/REACT-CRUD/static/js/blueprint-icons-split-paths-by-size-loader.5d3afb9e.chunk.js.map",
@@ -29,7 +29,7 @@
     "blueprint-icons-20px-paths.e6d6379c.chunk.js.map": "/REACT-CRUD/static/js/blueprint-icons-20px-paths.e6d6379c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4825356d.css",
+    "static/css/main.61ade510.css",
     "static/js/main.76838d60.js"
   ]
 }
